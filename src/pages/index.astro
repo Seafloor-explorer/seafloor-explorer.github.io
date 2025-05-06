@@ -1,0 +1,81 @@
+---
+import { Container, FeatureCard } from '@components/odyssey-theme';
+
+import Layout from '../layouts/Page.astro';
+import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro';
+import SeminarCard from '../components/cards/SeminarCard.astro';
+import settings from '../config/settings.js';
+import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
+---
+
+<Layout>
+	<HomeHeroSection />
+
+	<Container>
+		<section class="feature-card__section">
+			<h2>Upcoming meetings</h2>
+
+			<div class="feature-card__grid">
+				<SeminarCard 
+					href="/seafloor/seminar1" 
+					theme_title="Theme 1 | Date/Time"
+					auth1="Author 1, Affliation"
+					title1="Title 1"
+					auth2="Author 2, Affliation"
+					title2="Title 2"
+					auth3="Author 3, Affliation"
+					title3="Title 3"
+				></SeminarCard>
+			</div>
+			<p></p>
+			<div class="feature-card__grid">
+				<SeminarCard 
+					href="/seafloor/seminar2" 
+					theme_title="Theme 2 | Date/Time"
+					auth1="Author 1, Affliation"
+					title1="Title 1"
+					auth2="Author 2, Affliation"
+					title2="Title 2"
+					auth3="Author 3, Affliation"
+					title3="Title 3"
+				></SeminarCard>
+			</div>
+			<p></p>
+
+			<h2>Past meetings</h2>
+
+			<div class="feature-card__grid">
+				<SeminarCard 
+					href="/seafloor/seminar3" 
+					theme_title="Theme 3 | Date/Time"
+					auth1="Author 1, Affliation"
+					title1="Title 1"
+					auth2="Author 2, Affliation"
+					title2="Title 2"
+					auth3="Author 3, Affliation"
+					title3="Title 3"
+				></SeminarCard>
+			</div>
+			<p></p>
+
+		</section>
+		{settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
+	</Container>
+
+</Layout>
+
+<style>
+	.feature-card__section {
+		margin: var(--section-margin) auto;
+	}
+	.feature-card__grid {
+		display: grid;
+		/* grid-template-columns: repeat(2, 1fr); */
+		gap: var(--theme-grid-gap);
+	}
+	@media (max-width: 768px) {
+		.feature-card__grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

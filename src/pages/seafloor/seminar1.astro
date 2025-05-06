@@ -1,0 +1,86 @@
+---
+import { 
+	Container, 
+	Button,
+  TextCardSection,
+	YouTubeEmbedSection, 
+  TextSection } from '@components/odyssey-theme';
+import Layout from '../../layouts/Page.astro';
+import TextAndImageHero from '../../components/sections/heros/TextAndImageHero.astro';
+
+const seo = {
+  title: `Seminar 1 | Seafloor Explorer`,
+  description: `Seminar 1`,
+};
+---
+
+<Layout seo={seo}>
+	<TextSection narrow>
+			<h2>Theme 1 | Date/Time</h2>
+    </TextSection>
+
+      <TextAndImageHero>
+        <div slot="text-container">
+          <h3>Title 1</h3>
+          <h4>Author 1, Affliation</h4>
+          <p>
+            <em>Abstract:</em> Ipsum Lorem
+          </p>
+        </div>
+        <picture slot="image-container">
+          <YouTubeEmbedSection url="https://www.youtube.com/watch?v=hoBybmiXkzs" rounded/>
+        </picture>
+      </TextAndImageHero>
+
+      <TextAndImageHero>
+        <div slot="text-container">
+          <h3>Title 2</h3>
+          <h4>Author 2, Affliation</h4>
+          <p>
+            <em>Abstract:</em> Ipsum Lorem
+          </p>
+        </div>
+        <picture slot="image-container">
+          <YouTubeEmbedSection url="https://www.youtube.com/watch?v=hoBybmiXkzs" rounded/>
+        </picture>
+      </TextAndImageHero>
+
+      <TextAndImageHero>
+        <div slot="text-container">
+          <h3>Title 3</h3>
+          <h4>Author 3, Affliation</h4>
+          <p>
+            <em>Abstract:</em> Ipsum Lorem
+          </p>
+        </div>
+        <picture slot="image-container">
+          <YouTubeEmbedSection url="https://www.youtube.com/watch?v=hoBybmiXkzs" rounded/>
+        </picture>
+      </TextAndImageHero>
+
+      <TextSection narrow>
+			<div class="cta-buttons__container">
+				<Button href="/">Return Home</Button>
+			</div>
+    </TextSection>
+</Layout>
+
+<style>
+	.cta-buttons__container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.cta-buttons__container :global(a) {
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+	.code-buttons__container {
+		margin: 1rem auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.code-buttons__container > a {
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+</style>
