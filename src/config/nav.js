@@ -1,15 +1,15 @@
 export const nav = [
 	{
-		title: 'Organising committee',
+		title: 'About',
 		slug: '/seafloor/about',
 	},
 	// {
 	// 	title: 'Speaker suggestions',
 	// 	slug: '/seafloor/suggestion',
 	// },
-	{
-		title: 'Subscribe',
-		slug: '/seafloor/contact',
-	},
+	// {
+	// 	title: 'Subscribe',
+	// 	slug: '/seafloor/contact',
+	// },
 ];
 
