@@ -1,16 +1,18 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { Container, Button } from '@components/odyssey-theme';
+import { TextSection, Container, Button } from '@components/odyssey-theme';
 import settings from '../../../config/settings.js';
 import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 ---
 
 <Container>
+	<TextSection>
+		<h2 style="text-align:center">Seafloor Explorer - Online Seminar Series</h2>
+	</TextSection>
 	<section class="hero-section__section">
 		<div class="hero-section__text">
-				<h2>Seafloor Explorer - Online Seminar Series</h2>
 				<p>
-					Schedule and Zoom meeting registration are distributed through the seminar series mailing list.
+					Schedule and Zoom link registration are distributed through the seminar series mailing list.
 				</p>
 				<div class="hero-btns__container">
 					<Button href="/seafloor/contact" customIcon

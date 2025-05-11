@@ -23,7 +23,7 @@ export const footerSocials = [
 
 export const footerLists = [
 	{
-		title: 'Other links',
+		// title: 'Other links',
 		items: [
 			{
 				title: 'British Geophysical Association',
@@ -33,10 +33,21 @@ export const footerLists = [
 				title: 'IODP-UK',
 				slug: 'https://www.ukiodp.org',
 			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
+			{
+				title: 'InterRidge',
+				slug: 'http://194.254.225.67',
+			},
+      {
+				title: 'US InterRidge',
+				slug: 'https://usinterridge.org',
+			},
+			{
+				title: 'Ridge Seminar Series',
+				slug: 'https://ridgeseminarseries.wordpress.com',
+			},
+
+			
+			
 		],
 	},
 	// {
