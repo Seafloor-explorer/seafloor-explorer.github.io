@@ -9,10 +9,10 @@ export const footerSocials = [
     url: '',
     icon: "mdi:youtube",
   },
-  {
-    name: 'Github',
+	{
+    name: 'Bluesky',
     url: '',
-    icon: "mdi:github",
+    icon: "Bluesky_logo",
   },
   // {
   //   name: 'Discord',
@@ -40,33 +40,27 @@ export const footerLists = [
       {
 				title: 'US InterRidge',
 				slug: 'https://usinterridge.org',
+			},			
+		],
+	},
+	// {
+	// 	// title: 'Company',
+	// 	items: [
+	// 	],
+	// },
+	{
+		// title: 'Company',
+		items: [
+			{
+				title: 'Rifts and Rifted Margins Seminar Series',
+				slug: 'https://www.gfz.de/sektion/geodynamische-modellierung/projekte/rift-and-rifted-margins-online-seminar',
 			},
 			{
 				title: 'Ridge Seminar Series',
 				slug: 'https://ridgeseminarseries.wordpress.com',
 			},
-
-			
-			
 		],
 	},
-	// {
-	// 	title: 'Company',
-	// 	items: [
-	// 		{
-	// 			title: 'About',
-	// 			slug: '/company/about',
-	// 		},
-	// 		{
-	// 			title: 'Blog',
-	// 			slug: '/blog',
-	// 		},
-	// 		{
-	// 			title: 'Contact',
-	// 			slug: '/company/contact',
-	// 		},
-	// 	],
-	// },
 	// {
 	// 	title: 'Theme',
 	// 	items: [

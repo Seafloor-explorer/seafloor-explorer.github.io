@@ -1,52 +1,18 @@
 ---
-import ContactForm from '../../components/forms/ContactForm.astro';
+import { TextSection } from '@components/odyssey-theme';
 import Layout from '../../layouts/Page.astro';
-import { Container } from '@components/odyssey-theme';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
 
 const seo = {
-	title: 'Contact | Astro Odyssey Theme',
-	description: 'Contact Page',
+	title: 'Mailing list | Seafloor Explorer',
+	description: 'Mailing list',
 };
 ---
 
-<Layout seo={seo}>
-	<Container>
-		<section class="contact-hero__section">
-			<div class="contact-hero__text-section">
-				<h3>Seminar mailing list</h3>
-				<p> To subscribe, please fill the form and click on 'Submit'</p>
-			</div>
-			<div class="col-2__container">
-				<ContactForm />
-			</div>
-		</section>
-	</Container>
+<Layout {seo}>
+  <TextSection narrow>
+    <h1>Mailing list</h1>
+   *** More information coming soon ***
+  </TextSection>
 </Layout>
 
-<style>
-	.contact-hero__section {
-		margin: var(--section-margin) auto;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		min-height: calc(90vh - var(--navbar-height));
-		gap: 3rem;
-	}
-	.contact-hero__text-section {
-		padding: 2rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		background-color: var(--theme-surface-1);
-		border-radius: var(--theme-shape-radius);
-	}
-	.col-2__container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	@media (max-width: 768px) {
-		.contact-hero__section {
-			grid-template-columns: 1fr;
-		}
-	}
-</style>

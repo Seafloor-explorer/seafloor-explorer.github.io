@@ -3,10 +3,10 @@ export const nav = [
 		title: 'About',
 		slug: '/seafloor/about',
 	},
-	// {
-	// 	title: 'Speaker suggestions',
-	// 	slug: '/seafloor/suggestion',
-	// },
+	{
+		title: 'Join mailing list',
+		slug: '/seafloor/contact',
+	},
 	// {
 	// 	title: 'Subscribe',
 	// 	slug: '/seafloor/contact',
