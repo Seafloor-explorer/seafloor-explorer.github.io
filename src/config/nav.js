@@ -5,7 +5,7 @@ export const nav = [
 	},
 	{
 		title: 'Join mailing list',
-		slug: '/seafloor/contact',
+		slug: 'https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=SEAFLOOR-EXPLORER&A=1',
 	},
 	// {
 	// 	title: 'Subscribe',
