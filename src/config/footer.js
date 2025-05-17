@@ -6,7 +6,7 @@ export const footerSocials = [
   // },
   {
     name: 'Youtube',
-    url: '',
+    url: 'http://www.youtube.com/@SeafloorExplorerSeminarSeries',
     icon: "mdi:youtube",
   },
 	{

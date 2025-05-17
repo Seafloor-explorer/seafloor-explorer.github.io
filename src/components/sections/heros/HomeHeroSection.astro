@@ -5,16 +5,15 @@ import settings from '../../../config/settings.js';
 import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 ---
 
-<Container>
+<Container narrow>
 	<TextSection>
 		<h2 style="text-align:center">Seafloor Explorer - Online Seminar Series</h2>
 	</TextSection>
 	<section class="hero-section__section">
 		<div class="hero-section__text">
 			<p>
-			We aim to bring together UK/EU-based scientists working on ocean tectonic settings, 
-			across disciplines including but not limited to geology, geophysics, geochemistry, marine geosciences,
-			offering opportunities for collaboration and networking.
+			We want to bring together UK/EU-based scientists working on ocean tectonic settings, 
+			across disciplines including but not limited to geology, geophysics, geochemistry, marine geosciences.
 		</p>
 			<p>
 				Seminars are hosted virtually at 3pm UK time on Tuesdays mid-month (once a month). 
@@ -47,10 +46,11 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 		<div class="hero-section__image">
 				<picture>
 					<img
-						src="/assets/images/home/classic-hero.jpg"
-						alt="Astro Odyssey"
-						id="home-hero-image"
+						src="/assets/seafloor/social.jpeg"
+						alt="seafloor"
+						id="home-seafloor-image"
 					/>
+					<p style="text-align:center; font-size: var(--font-size-sm);">Ocean floor at the Paramount seamount. Credit: NOAA Okeanos Explorer Program</p>
 				</picture>
 		</div>
 	</section>
@@ -61,7 +61,7 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 		margin: var(--section-margin) auto;
 		min-height: clamp(90vh, 100vw, calc(100vh - var(--navbar-height)));
 		display: grid;
-		grid-template-columns: 65% 35%;
+		grid-template-columns: 60% 40%;
 		align-items: center;
 		gap: 1rem;
 	}

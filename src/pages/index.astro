@@ -11,9 +11,9 @@ import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 <Layout>
 	<HomeHeroSection />
 
-	<Container>
+	<Container narrow>
 		<section class="feature-card__section">
-			<h2>Upcoming meetings</h2>
+			<h2 style="text-align:center;">Upcoming meetings</h2>
 
 			<div class="feature-card__grid">
 				<SeminarCard 
@@ -42,7 +42,7 @@ import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 			</div>
 			<p></p>
 
-			<h2>Past meetings</h2>
+			<h2 style="text-align:center;">Past meetings</h2>
 
 			<!-- <div class="feature-card__grid">
 				<SeminarCard 
@@ -59,7 +59,7 @@ import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 			<p></p> -->
 
 		</section>
-		{settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
+		<!-- {settings.enableThemeSwitcher && <ThemeSwitcher client:only/>} -->
 	</Container>
 
 </Layout>

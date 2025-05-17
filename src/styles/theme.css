@@ -1,17 +1,17 @@
 :root {
 	/* Theme Colors */
-	--theme-primary: hsl(0, 0%, 0%);
-	--theme-primary-hover: hsl(0, 0%, 20%);
-	--theme-on-primary: #fff;
+	--theme-primary: #0b3975;
+	--theme-primary-hover: #0b3975;
+	--theme-on-primary: hsl(0, 0%, 100%);
 
-	--theme-bg: #fff;
-	--theme-on-bg: #000;
+	--theme-bg: #fafafa;
+	--theme-on-bg: #0c0d0d;
 
-	--theme-surface-1: #f2f2f2;
-	--theme-on-surface-1: #000;
+	--theme-surface-1: #eef1f3;
+	--theme-on-surface-1: #0c0d0d;
 
-	--theme-surface-2: #cce6d0;
-	--theme-on-surface-2: #000;
+	--theme-surface-2: #072650;
+	--theme-on-surface-2: #ffffff;
 
 	/* Theme Shapes */
 	/* Set this to 0 if you want all of the rounded cards, images, etc to be straight edges */
@@ -23,9 +23,9 @@
 
 	/* Theme Layout */
 	--section-margin: 3rem;
-	--theme-grid-gap: 1rem;
+	--theme-grid-gap: 3rem;
 	--container-max-width: 1440px;
-	--container-max-width-narrow: 960px;
+	--container-max-width-narrow: 1000px;
 	--container-padding: 0 1rem;
 
 	--theme-blog-post-header-width: 1200px;
@@ -37,10 +37,10 @@
 		sans-serif;
 }
 
-[data-theme='default'] {
+/* [data-theme='default'] {
 	color-scheme: light;
 	/* Theme Colors */
-	--theme-primary: hsl(0, 0%, 0%);
+	/* --theme-primary: hsl(0, 0%, 0%);
 	--theme-primary-hover: hsl(0, 0%, 20%);
 	--theme-on-primary: #fff;
 
@@ -51,30 +51,30 @@
 	--theme-on-surface-1: #000;
 
 	--theme-surface-2: #cce6d0;
-	--theme-on-surface-2: #000;
+	--theme-on-surface-2: #000; */
 
 	/* Theme Shape */
 	/* Set this to 0 if you want all of the rounded cards, images, etc to be straight edges */
-	--theme-shape-radius: clamp(1rem, 2rem, 3rem);
-	--theme-button-border-radius: 3rem;
+	/* --theme-shape-radius: clamp(1rem, 2rem, 3rem);
+	--theme-button-border-radius: 3rem; */
 
 	/* Theme Transition */
-	--theme-transition: 0.2s ease-in-out;
+	/* --theme-transition: 0.2s ease-in-out; */
 
 	/* Theme Layout */
-	--section-margin: 3rem;
+	/* --section-margin: 3rem;
 	--theme-grid-gap: 1rem;
 	--container-max-width: 1440px;
 	--container-max-width-narrow: 960px;
 	--container-padding: 0 1rem;
 
 	--theme-blog-post-header-width: 1200px;
-}
+}  */
 
-[data-theme='dark'] {
+/* [data-theme='dark'] {
 	color-scheme: dark;
 	/* Theme Colors */
-	--theme-primary: hsl(0, 0%, 100%);
+	/* --theme-primary: hsl(0, 0%, 100%);
 	--theme-primary-hover: hsl(0, 0%, 90%);
 	--theme-on-primary: hsl(0, 0%, 0%);
 
@@ -91,11 +91,11 @@
 	--theme-button-border-radius: 3rem;
 
 	--form-field-input-color: var(--theme-on-bg);
-}
+} */
 
-[data-theme='earth'] {
+/* [data-theme='earth'] { */
 	/* Theme Colors */
-	--theme-primary: #2c3e2d;
+	/* --theme-primary: #2c3e2d;
 	--theme-primary-hover: #395a3b;
 	--theme-on-primary: hsl(0, 0%, 100%);
 
@@ -109,12 +109,12 @@
 	--theme-on-surface-2: #000;
 
 	--theme-button-border-radius: 0.5rem;
-}
+} */
 
-[data-theme='ocean'] {
+/* [data-theme='ocean'] { */
 	/* Theme Colors */
 	/* Theme Colors */
-	--theme-primary: #1556ac;
+	/* --theme-primary: #1556ac;
 	--theme-primary-hover: #2569c3;
 	--theme-on-primary: hsl(0, 0%, 100%);
 
@@ -126,12 +126,12 @@
 
 	--theme-surface-2: #072650;
 	--theme-on-surface-2: #ffffff;
-}
+} */
 
-[data-theme='sand'] {
+/* [data-theme='sand'] { */
 	/* Theme Colors */
 	/* Theme Colors */
-	--theme-primary: #e38a20;
+	/* --theme-primary: #e38a20;
 	--theme-primary-hover: #eb870f;
 	--theme-on-primary: hsl(0, 0%, 100%);
 
@@ -145,4 +145,4 @@
 	--theme-on-surface-2: #ffffff;
 
 	--theme-button-border-radius: 0.5rem;
-}
+} */
