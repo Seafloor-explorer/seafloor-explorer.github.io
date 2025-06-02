@@ -59,6 +59,10 @@ export const footerLists = [
 				title: 'Ridge Seminar Series',
 				slug: 'https://ridgeseminarseries.wordpress.com',
 			},
+			{
+				title: 'Deep Ocean Education',
+				slug: 'https://deepoceaneducation.org',
+			},
 		],
 	},
 	// {
