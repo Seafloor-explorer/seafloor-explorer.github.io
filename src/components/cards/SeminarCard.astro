@@ -29,7 +29,7 @@ const {href, theme_title, auth1, title1, auth2, title2, auth3, title3} = Astro.p
 <div class="feature-card__card">
   <a class="feature-card__link" href={href}>
     <div class="featured-card__content">
-      <h3 class="feature-card__title">{theme_title}</h3>
+      <h3 style="text-align:center;" class="feature-card__title">{theme_title}</h3>
       <ul>
       <li><em>{auth1}</em>: {title1}</li>
       <li><em>{auth2}</em>: {title2}</li>
@@ -37,5 +37,4 @@ const {href, theme_title, auth1, title1, auth2, title2, auth3, title3} = Astro.p
       </ul>
     </div>
   </a>
-</div> 
-
+</div>

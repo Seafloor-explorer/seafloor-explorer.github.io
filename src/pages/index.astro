@@ -4,6 +4,7 @@ import { Container, FeatureCard } from '@components/odyssey-theme';
 import Layout from '../layouts/Page.astro';
 import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro';
 import SeminarCard from '../components/cards/SeminarCard.astro';
+import SeminarCard_blank from '../components/cards/SeminarCard_blank.astro';
 import settings from '../config/settings.js';
 import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 ---
@@ -28,20 +29,22 @@ import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 				></SeminarCard>
 			</div>
 			<p></p>
-			<div class="feature-card__grid">
-				<SeminarCard 
+			<div class="feature-card-blank__grid">
+				<SeminarCard_blank 
 					href="/seafloor/seminar2" 
 					theme_title="2. Melt pathways at mid-ocean ridges | July 15, 2025 at 15:00 BST"
-					auth1="Author 1, Affliation"
-					title1="Title 1"
-					auth2="Author 2, Affliation"
-					title2="Title 2"
-					auth3="Author 3, Affliation"
-					title3="Title 3"
-				></SeminarCard>
+				></SeminarCard_blank>
+			</div>
+			<p></p>
+			<div class="feature-card-blank__grid">
+				<SeminarCard_blank 
+					href="/seafloor/seminar3" 
+					theme_title="3. Submarine hazards: earthquakes, eruptions, landslides | August 19, 2025 at 15:00 BST"
+				></SeminarCard_blank>
 			</div>
 			<p></p>
 
+			<p></p>
 			<h2 style="text-align:center;">Past meetings</h2>
 
 			<!-- <div class="feature-card__grid">

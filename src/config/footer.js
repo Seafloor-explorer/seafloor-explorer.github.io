@@ -11,7 +11,7 @@ export const footerSocials = [
   },
 	{
     name: 'Bluesky',
-    url: '',
+    url: 'https://bsky.app/profile/seafloorexploreruk.bsky.social',
     icon: "Bluesky_logo",
   },
   // {
