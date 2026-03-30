@@ -4,6 +4,7 @@ import { Container, FeatureCard } from '@components/odyssey-theme';
 import Layout from '../layouts/Page.astro';
 import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro';
 import SeminarCard from '../components/cards/SeminarCard.astro';
+import SeminarCard2 from '../components/cards/SeminarCard2.astro';
 import SeminarCard_blank from '../components/cards/SeminarCard_blank.astro';
 import settings from '../config/settings.js';
 import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
@@ -15,37 +16,16 @@ import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 	<Container narrow>
 		<section class="feature-card__section">
 			<h2 style="text-align:center;">Upcoming meetings</h2>
-				<!-- <div class="feature-card__grid">
-				<SeminarCard 
-					href="/seafloor/seminar7" 
-					theme_title="7. Geophysical imagining of subduction zone structure and dynamics | January 13, 2026 at 15:00 GMT"
-					auth1="Author1"
-					title1="Title1"
-					auth2="Author2"
-					title2="Title2"
-					auth3="Author3"
-					title3="Title3"
-				></SeminarCard>
-			</div> -->
 
-			<div class="feature-card__grid">
-				<SeminarCard 
-					href="/seafloor/seminar9" 
-					theme_title="9. Expedition reports - Iceland | March 17, 2026 at 15:00 GMT"
-					auth1="Nick Rawlinson (U. Cambridge, UK)"
-					title1="Seismicity and seismic imaging of volcanic rift zones in Iceland"
-					auth2="Stephen Jones (U. Birmingham, UK)"
-					title2="The IMPULSE experiment: New oceanic crustal record of thermal plume pulsing of Earth’s strongest mantle plume"
-					auth3="Jacqueline Dixon (U. South Florida, US)"
-					title3="Upcoming Investigation of Small Seamounts in the Bight Volcanic Field and Challenges to the Pulsing Plume Model"
-				></SeminarCard>
-			</div>
-			<p></p>
-			<div class="feature-card-blank__grid">
-				<SeminarCard_blank 
+			<div class="feature-card2__grid">
+				<SeminarCard2
 					href="/seafloor/seminar10" 
 					theme_title="10. Advances in seafloor geodesy | April 14, 2026 at 15:00 BST"
-				></SeminarCard_blank>
+					auth1="Andrew Newman (Georgia Tech, US)"
+					title1="Extending GNSS-Acoustic seafloor geodetic methods to the very near trench region"
+					auth2="Marc-André Gutscher (U. Brest, FR)"
+					title2="Using fibre optic cables to detect movements at the seafloor"
+				></SeminarCard2>
 			</div>
 			<p></p>
 			<div class="feature-card-blank__grid">
@@ -55,15 +35,36 @@ import {ThemeSwitcher} from '../components/theme-switcher/theme-switcher';
 				></SeminarCard_blank>
 			</div>
 			<p></p>
+			<div class="feature-card-blank__grid">
+				<SeminarCard_blank 
+					href="/seafloor/seminar12" 
+					theme_title="12. Geophysics for off-shore engineering | June 16, 2026 at 15:00 BST"
+				></SeminarCard_blank>
+			</div>
+			<p></p>
 
 			<p></p>
 			<h2 style="text-align:center;">Past meetings</h2>
 			<p style="text-align:center;">* Click on each seminar to view recordings * </p>
 
 			<div class="feature-card__grid">
+				<SeminarCard 
+					href="/seafloor/seminar9" 
+					theme_title="9. Expedition reports - Iceland | March 17, 2026"
+					auth1="Nick Rawlinson (U. Cambridge, UK)"
+					title1="Seismicity and seismic imaging of volcanic rift zones in Iceland"
+					auth2="Stephen Jones (U. Birmingham, UK)"
+					title2="The IMPULSE experiment: New oceanic crustal record of thermal plume pulsing of Earth's strongest mantle plume"
+					auth3="Jacqueline Dixon (U. South Florida, US)"
+					title3="Upcoming Investigation of Small Seamounts in the Bight Volcanic Field and Challenges to the Pulsing Plume Model"
+				></SeminarCard>
+			</div>
+			<p></p>
+
+			<div class="feature-card__grid">
 				<SeminarCard
 					href="/seafloor/seminar8" 
-					theme_title="8. Outreach and communication in marine geosciences | February 17, 2026 at 15:00 GMT"
+					theme_title="8. Outreach and communication in marine geosciences | February 17, 2026"
 					auth1="Jodie Fischer (IODP3, UK)"
 					title1="Science Communication and Outreach in Scientific Ocean Drilling - an IODP3 perspective"
 					auth2="Cory Hite (U. Delaware, US)"
